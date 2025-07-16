@@ -144,7 +144,7 @@ CREATE TABLE tweets (
 
 1. Access http://localhost:8088 (admin/admin)
 2. Add database connection: `mysql://twitter_user:twitter_password@mysql:3306/twitter_analytics`
-3. Create charts using queries from `DASHBOARD_QUERIES.md`
+3. Create charts using queries from `dashboard-queries.md`
 
 ### Key Visualizations
 
@@ -165,7 +165,7 @@ project/
 ├── python-publisher/publisher.py         # Data ingestion service
 ├── mqtt-kafka-bridge/bridge.py           # Message routing service
 ├── kafka-mysql-consumer/consumer.py      # Data persistence service
-└── dashboard-queries.sql                 # Pre-built analytics queries
+└── dashboard-queries.md                 # Pre-built analytics queries
 ```
 
 ## Technical Implementation
