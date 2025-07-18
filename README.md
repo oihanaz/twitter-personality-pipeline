@@ -207,13 +207,13 @@ docker-compose -f docker-compose-mysql.yml down -v
 ## Proof of Concept Results
 
 ### Successful Deployment
-![Docker Services Running](proof_screen_shots/docker_desktop_containers.PNG)
+![Docker Services Running](twitter_app/proof_screen_shots/docker_desktop_containers.png)
 *All 9 Docker services running in production configuration*
 
 ### Functional Dashboard
-![Superset Dashboard](proof_screen_shots/superset_main.PNG)
+![Superset Dashboard](twitter_app/proof_screen_shots/superset_main.png)
 *Superset dashboard with full functionality and database connectivity*
 
-![Dashboard Visualizations](proof_screen_shots/dashboard_twitter.PNG)
+![Dashboard Visualizations](twitter_app/proof_screen_shots/dashboard_twitter.png)
 *Professional charts displaying real-time MBTI personality analysis*
 
